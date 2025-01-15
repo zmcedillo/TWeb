@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+header {
+    background: #0056b3;
+    background-color: #c785d1b1;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header p {
+    margin: 10px 0;
+}
+
+#proyectos {
+    padding: 20px 0;
+}
+.proyecto {
+    margin-bottom: 20px;
+}
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#contacto {
+    background: #f0f8ff;
+    padding: 20px;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input, form textarea, form button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+form button {
+    background: #0056b3;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+form button:hover {
+    background: #003d80;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+footer .redes-sociales a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer .redes-sociales a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    header, footer {
+        text-align: center;
+    }
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+.btn-primary:hover {
+    background-color: #003d80;
+    border-color: #003d80;
+}
+.container {
+    padding: 15px;
+}
+#proyectos .proyecto {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
